@@ -4,7 +4,7 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Payoo | Add Money Page</title>
+      <title>Payoo | Transaction Page</title>
       <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 
       <!-- tailwind + daisy -->
@@ -28,7 +28,7 @@
       </style>
 </head>
 
-<body class="min-h-screen max-w-md bg-base-200 mx-auto pb-20 pt-3">
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
 <!-- header section with logo -->
  <header class="border-b-2 border-gray-300">
       <section class="w-11/12 mx-auto py-3 flex justify-between items-center">
@@ -87,41 +87,8 @@
         <!-- button end -->
    </section>
       <!-- welcome section end -->
+ 
 
-      <!-- add money form section -->
-       <section class="add-money-form w-11/12 mx-auto">
-            <h2 class="text-2xl font-bold">Add Money</h2>
-
-            <div class="form pt-5  max-w-sm mx-auto ">
-            <div class="card bg-base-100 w-full shadow rounded-2xl">
-                  <div class="card-body">
-                        <fieldset class="fieldset">
-                              <label class="label font-bold text-neutral">Select A Bank</label>
-                              <!-- <input id="bank-name" type="text"  class="input rounded-full bg-base-200 w-full" placeholder="Select bank"  /> -->
-                              <select class="select select-bordered w-full text-neutral/50 rounded-full bg-base-200">
-                                    <option value="" disabled selected>Select bank</option>
-                                    <option value="brac" class="font-medium text-neutral">BRAC BANK</option>
-                                    <option value="city" class="font-medium text-neutral">CITY BANK</option>
-                                    <option value="islami" class="font-medium text-neutral">ISLAMI BANK</option>
-                                    <option value="agrani" class="font-medium text-neutral">AGRANI BANK</option>
-                              </select>
-                              <br>
-                              <label class="label font-bold text-neutral">Bank Account Number</label>
-                              <input id="account-number" type="text" maxlength="11" minlength="11" class="input rounded-full bg-base-200 w-full" placeholder="Enter 11 digit account number"  />
-                              <br>
-                              <label class="label font-bold text-neutral">Amount to Add</label>
-                              <input id="add-amount" type="number" class="input rounded-full bg-base-200 w-full" placeholder="Add Amount to withdraw"  />
-                              <br>
-                              <label class="label font-bold text-neutral">Pin Number</label>
-                              <input id="addMoney-pin" type="password" maxlength="4" class="input rounded-full bg-base-200 w-full" placeholder="Enter 4 Digit Pin Number" />
-                              <button id="add-money-btn" class="btn btn-primary mt-4 rounded-full font-semibold w-full">Add Money</button>
-                        </fieldset>
-                  </div>
-            </div>
-
-      </div>
-
-       </section>
-       <!-- add money form section end -->
 </body>
+
 </html>
